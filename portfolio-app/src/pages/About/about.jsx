@@ -24,28 +24,26 @@ const About = () => {
             <article className="about_card">
               <FaAward className='about_icon'/>
               <h5>Experience</h5>
-              <small>3+ Year Working</small>
+              <small>5+ Year Working Experience</small>
             </article>
 
             <article className="about_card">
               <FiUsers className='about_icon'/>
-              <h5>Clients</h5>
-              <small>3+ Year Working</small>
+              <h5>Study</h5>
+              <small>15+ Years of tudy</small>
             </article>
 
             <article className="about_card">
             <VscFolderLibrary className='about_icon'/>
               <h5>Projects</h5>
-              <small>13+ Year Working</small>
+              <small>15+ Worked Project</small>
             </article>
 
           </div>
 
           <p>
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consectetur molestiae, temporibus deleniti et beatae hic illum asperiores dolorem animi aperiam omnis quia! Suscipit, atque veniam culpa eos vero nam quas.
-          </p>
+          front-end web developer with an electromechanics background (over 5 years of experience) tackling complex bugs with a rational problem-solving approach. graduated from the Edex Trilogy Bootcamp and developed skills in JavaScript, CSS, React.js, Bootstrap, jQuery, and responsive web design. having a thirst for lifelong learning, collaboration, and problem solving, and being equally enthusiastic about developing applications that help ordinary people make their lives easier. In order to give the best user experience possible, each project should strive to be the best at engaging the audience. I am excited to use my abilities in the future as part of a fast-paced, quality-driven team to create better web experiences. I'm excited to put my precise attention to detail and technical talents to work for a company that values growth, learning, and making a major contribution.          </p>
 
-          <a href ='#contact' className ='btn btn-primary'> Let's Talk</a>
         
           
         </div>

@@ -1,6 +1,10 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import '../style.css'
+import { BsLinkedin } from 'react-icons/bs'
+import { DiGithubAlt } from 'react-icons/di'
+
+
 function Resume() {
     return (
         <Container id="resume" style={{ backgroundColor: "whitesmoke" }}>
@@ -10,12 +14,11 @@ function Resume() {
 
                     <h2 style={{ textAlign: "center", fontWeight: "bold" }}>Adama Sall</h2>
                     <div className="text-center">
-                        <a className="d-inline" href="https://github.com/kaiyfa" target={"_blank"} rel={"noopener noreferrer"}><i
+                        <a className="d-inline" href="https://github.com/kaiyfa" target={"_blank"} rel={"noopener noreferrer"}><DiGithubAlt /><i
                             className="fab fa-github"></i> GitHub • </a>
                         <a className="d-inline" href="https://www.linkedin.com/in/adsall" target={"_blank"}
-                            rel={"noopener noreferrer"}><i className="fab fa-linkedin"></i> LinkedIn • </a>
-                        <a className="d-inline" href="https://www.instagram.com/renaesowald/" target={"_blank"}
-                            rel={"noopener noreferrer"}><i className="fab fa-instagram"></i> Instagram</a>
+                            rel={"noopener noreferrer"}><BsLinkedin /><i className="fab fa-linkedin"></i> LinkedIn • </a>
+
                     </div>
                     <h3 className="mt-3" style={{ textAlign: "center", fontWeight: "bold" }}>Summary</h3>
                     <p>front-end web developer with an electromechanics background (over 5 years of experience) tackling
@@ -30,15 +33,15 @@ function Resume() {
                     </p>
                     <h3 style={{ textAlign: "center", fontWeight: "bold" }}>Technical Skills</h3>
                     <ul>
-                        <li>Tools: s: Express, React, Node, Handlebars, Query, Bootstrap, Server-side APIs, AJAX, and JSON </li>
+                        <li>Tools: Express, React, Node, Query, Bootstrap, Server-side APIs, Enzyme, Jest, AJAX, and JSON </li>
                         <li>Languages: JavaScript ES6, CSS, HTML5, Typescript</li>
-                        <li>Applications: GitHub, MongoDB, MySQL</li>
+                        <li>Applications: GitHub</li>
                         {/* <li>Spoken Languages: English, French</li> */}
                     </ul>
 
                     <h3 style={{ textAlign: "center", fontWeight: "bold" }}>Projects</h3>
                     <ul>
-                        <li>PASSWORD GENERATOR: HTTPS://GITHUB.COM/KAIYFA/PASSWORD-GENERATOR|HTTPS://KAIYFA.GITHUB.IO/PASSWORD-GENERATOR/
+                        <li>PASSWORD GENERATOR: HTTPS://GITHUB.COM/KAIYFA/PASSWORD-GENERATOR|HTTPS://KAIYFA.GITHUB.IO/PASSWORD-GENERATOR/.
                             SUMMARY: An employee can generate a random password based on criteria they’ve selected.
                             TOOLS: HTML, CSS, JavaScript, Bootstrap, GoogleFonts, wireframing
                             ROLE: SOLE AUTHOR
@@ -75,7 +78,7 @@ function Resume() {
                         <li>●Received a 5,000 CFA safety prize for holding and conducting a housekeeping operation in an
                             abandoned property.</li>
                     </ul>
-                    <p> <h5>Senior Electromechanical Technician/Full-Time Employee</h5>, April 2017–May 2019
+                    <p> <h5>Senior Electromechanical Technician/Full-Time Employee</h5> April 2017–May 2019
                         Soeco/Poncet Thiès, Sénégal
                         I supervised, maintained, and ran a crushing unit, including machine operator maintenance.
                         Key Accomplishments:
@@ -96,8 +99,8 @@ function Resume() {
                     <h3 style={{ textAlign: "center", fontWeight: "bold" }}>Education</h3>
                     <p><h5>Front-End web Development Certificate - Edx Trilogy Education Services-2022-2023</h5>
                         ● A 16-week intensive program focused on developing technical programming abilities in HTML5,
-                        CSS, Javascript, JQuery, Bootstrap, Firebase, Node.js, MySQL, MongoDB, Express,
-                        Handelbars.js, and ReactJS.
+                        CSS, Javascript, JQuery, Bootstrap, Node.js, Express,
+                        and ReactJS.
                     </p>
                     <p><h5>Advanced Technician's Certificate in Heavy Equipment Maintenance</h5> ● Senegal-Japan Training Center
                         Dakar, Senegal 2014 - 2016
@@ -106,12 +109,12 @@ function Resume() {
                         Delafosse Dakar, Senegal 2009 - 2010
                     </p>
                     <h3 style={{ textAlign: "center", fontWeight: "bold" }}>Additiona Skills</h3>
-                   <ul> Technology:
-                   <li>● Office Suite (Word, Excel, PowerPoint)</li> 
-                    <li>● Google slide,drive and doc</li>
-                    Languages:
-                   <li> ● English: Intermediate level grade 7.5 on IELTS</li>
-                    <li>● French: Fluent</li>
+                    <ul> Technology:
+                        <li>● Office Suite (Word, Excel, PowerPoint)</li>
+                        <li>● Google slide,drive and doc</li>
+                        Languages:
+                        <li> ● English: Intermediate level grade 7.5 on IELTS</li>
+                        <li>● French: Fluent</li>
                     </ul>
                     <p>References are available on request.</p>
 

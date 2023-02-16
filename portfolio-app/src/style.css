@@ -118,7 +118,27 @@ transition: var(--transition);
   background: var(--color-primary);
   color: var(--color-bg);
 }
+.cta{
+  margin-top: 2.5rem;
+  display: flex;
+  gap: 1.2rem;
+  justify-content:left;
+}
+.me {
+  background: linear-gradient(var(--color-primary),transparent) ;
+  width: 22rem;
+  height: 22rem;
+  position: relative;
+  left: calc(50% - 11rem);
+  /* margin-top: 4rem; */
+  border-radius: 12rem 12rem 0 0;
+  overflow:hidden;
+  padding: 0 0rem 0rem 0rem;
 
+}
+#jumbotron {
+  background:var(--color-primary)
+}
 img {
   display: block;
   width: 100%;
