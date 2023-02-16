@@ -26,6 +26,18 @@
     margin:1.2rem 0 2rem ;
 }
 
+.portfolio_item p {
+    text-shadow: none;
+    color:var(--color-primary-variant);
+}
+
+.portfolio_item p:hover {
+    background: var(--color-white);
+    color:var(--color-bg);
+    border-color:transparent;
+  }
+  
+
 .portfolio_item-cta {
     display: flex;
     gap: 1rem;

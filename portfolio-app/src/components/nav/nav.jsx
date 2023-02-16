@@ -4,6 +4,9 @@ import Nav from 'react-bootstrap/Nav'
 import NavDropdown from 'react-bootstrap/NavDropdown';
 import "./nav.css";
 import { Link } from 'react-router-dom';
+import {AiFillLinkedin} from  'react-icons/ai'
+import {DiGithubAlt} from 'react-icons/di'
+
 
 function MyNav() {
     return (
@@ -18,8 +21,8 @@ function MyNav() {
                     <Link to="/resume"><Nav.Link as="div">Resume</Nav.Link></Link>
                     <NavDropdown title="Social Media" id="collapsible-nav-dropdown">
                         <NavDropdown.Item href="https://github.com/kaiyfa" target={"_blank"} rel={"noopener noreferrer"}><i
-                            className="fab fa-github"></i> GitHub</NavDropdown.Item>
-                        <NavDropdown.Item href="https://www.linkedin.com/in/adsall" target={"_blank"} rel={"noopener noreferrer"}><i className="fab fa-linkedin"></i> LinkedIn</NavDropdown.Item>
+                            className="fab fa-github"></i><DiGithubAlt /> GitHub</NavDropdown.Item>
+                        <NavDropdown.Item href="https://www.linkedin.com/in/adsall" target={"_blank"} rel={"noopener noreferrer"}><i className="fab fa-linkedin"></i> <AiFillLinkedin />LinkedIn</NavDropdown.Item>
                         <NavDropdown.Divider />
                     </NavDropdown>
                 </Nav>

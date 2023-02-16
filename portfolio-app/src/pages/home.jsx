@@ -9,19 +9,20 @@ function Home() {
         <Container id="home" className="align-center" style={{ paddingBottom: "300px" }}>
             <Row>
                 <Col size="sm-9">
-                    <Jumbotron>
-                        <h1>Hello, Community!</h1>
-                        <img className="img-fluid float-right rounded-circle portrait" src={IMG}
-                            alt="Self Portrait" style={{ maxWidth: "30%", maxHeight: "auto" }} />
+                    <Jumbotron id='jumbotron'>
+                        <h1 style={{ borderBottom: "solid 1px", marginBottom: "25px" }}>Hello, Community!</h1>
+                        <div className='me'>
+                            <img src={IMG} alt='me' />
+                        </div>
                         <p className="lead">Hi My name is Adama Sall, and I am a web developer.</p>
 
                         <p className="lead">Visit my portfolio to see how far I've come on my journey.</p>
-                        <p className="lead">
+                        <div className="cta">
                             <a className="btn btn-primary" href='/portfolio'>Portfolio</a>
                             <br />
-                            <a href={CV} className="btn" target="blank" > My
+                            <a href={CV} className="btn btn-primary" target="blank" > My
                                 Resume</a>
-                        </p>
+                        </div>
                     </Jumbotron>
                 </Col>
             </Row>
