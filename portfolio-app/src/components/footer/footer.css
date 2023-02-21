@@ -15,7 +15,7 @@ footer a {
     display: inline-block;
 }
 
-.ml-auto {
+#ml-auto {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -48,7 +48,7 @@ footer a {
         margin-bottom: -8rem;
 
     }
-    .ml-auto{
+    #ml-auto{
         flex-direction: column;
         gap: 1.5rem;
     }
