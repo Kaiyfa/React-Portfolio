@@ -11,7 +11,7 @@ import {DiGithubAlt} from 'react-icons/di'
 function MyNav() {
     return (
 
-        <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark" className="space">
+        <Navbar collapseOnSelect expand="lg"  className="space">
             <Link to="/"><Navbar.Brand as="div">Adama Sall</Navbar.Brand></Link>
             <Navbar.Toggle aria-controls="responsive-navbar-nav" />
             <Navbar.Collapse id="responsive-navbar-nav">
