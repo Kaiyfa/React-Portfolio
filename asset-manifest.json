@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/react-portfolio/static/css/main.44cacf5e.css",
+    "main.js": "/react-portfolio/static/js/main.831200bb.js",
+    "static/media/Portfolio 3.png": "/react-portfolio/static/media/Portfolio 3.7fb75dddf41d8d1d14c4.png",
+    "static/media/Portfolio 2.png": "/react-portfolio/static/media/Portfolio 2.1bf29dd33fe26e8d8b05.png",
+    "static/media/Portfolio 4.png": "/react-portfolio/static/media/Portfolio 4.64c4fbd772cc1f652724.png",
+    "static/media/Portfolio1.png": "/react-portfolio/static/media/Portfolio1.1d86508aa657a5875b5d.png",
+    "static/media/Portfolio5.png": "/react-portfolio/static/media/Portfolio5.9d54cb812f587494ac1f.png",
+    "static/media/Portfolio6.png": "/react-portfolio/static/media/Portfolio6.cbc5559ce3ad9259ccd6.png",
+    "static/media/Me.JPG": "/react-portfolio/static/media/Me.8530a5e9719035fdb89d.JPG",
+    "static/media/Adama-Sall.pdf": "/react-portfolio/static/media/Adama-Sall.f880c38e4d7c0cf6ff25.pdf",
+    "index.html": "/react-portfolio/index.html",
+    "main.44cacf5e.css.map": "/react-portfolio/static/css/main.44cacf5e.css.map",
+    "main.831200bb.js.map": "/react-portfolio/static/js/main.831200bb.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.44cacf5e.css",
+    "static/js/main.831200bb.js"
+  ]
+}
