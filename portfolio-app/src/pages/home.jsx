@@ -18,7 +18,7 @@ function Home() {
 
                         <p className="lead">Visit my portfolio to see how far I've come on my journey.</p>
                         <div className="cta">
-                            <a className="btn btn-primary" href='/portfolio'>Portfolio</a>
+                            <a href='/portfolio'className="btn btn-primary" >Portfolio</a>
                             <br />
                             <a href={CV} className="btn btn-primary" target="blank" > My
                                 Resume</a>
