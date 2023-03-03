@@ -17,12 +17,12 @@ function Home() {
                         <p className="lead">Hi My name is Adama Sall, and I am a web developer.</p>
 
                         <p className="lead">Visit my portfolio to see how far I've come on my journey.</p>
-                        <div className="cta">
-                            <a href='/portfolio'className="btn btn-primary" target='_parent' >Portfolio</a>
+                        
+                            <a className="btn btn-outline-info mb-3" href="/react_portfolio/portfolio" role="button">Portfolio</a>
                             <br />
                             <a href={CV} className="btn btn-primary" target="blank" > My
                                 Resume</a>
-                        </div>
+                        
                     </Jumbotron>
                 </Col>
             </Row>
