@@ -18,7 +18,7 @@ function Home() {
 
                         <p className="lead">Visit my portfolio to see how far I've come on my journey.</p>
                         
-                            <a className="btn btn-outline-info mb-3" href="/react_portfolio/portfolio" role="button">Portfolio</a>
+                            <a href="/portfolio-app/portfolio"className="btn btn-primary" role="button">Portfolio</a>
                             <br />
                             <a href={CV} className="btn btn-primary" target="blank" > My
                                 Resume</a>
